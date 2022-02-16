@@ -1,0 +1,233 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.1//EN" "https://www.w3.org/TR/xhtml11/DTD/xhtml11.dtd">
+<html xmlns="https://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8"/>
+<title>TestNG Report</title>
+<style type="text/css">table {margin-bottom:10px;border-collapse:collapse;empty-cells:show}th,td {border:1px solid #009;padding:.25em .5em}th {vertical-align:bottom}td {vertical-align:top}table a {font-weight:bold}.stripe td {background-color: #E6EBF9}.num {text-align:right}.passedodd td {background-color: #3F3}.passedeven td {background-color: #0A0}.skippedodd td {background-color: #DDD}.skippedeven td {background-color: #CCC}.failedodd td,.attn {background-color: #F33}.failedeven td,.stripe .attn {background-color: #D00}.stacktrace {white-space:pre;font-family:monospace}.totop {font-size:85%;text-align:center;border-bottom:2px solid #000}.invisible {display:none}</style>
+</head>
+<body>
+<table>
+<tr><th>Test</th><th># Passed</th><th># Skipped</th><th># Retried</th><th># Failed</th><th>Time (ms)</th><th>Included Groups</th><th>Excluded Groups</th></tr>
+<tr><th colspan="8">Suite</th></tr>
+<tr><td><a href="#t0">TestChrome</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">1,527</td><td></td><td></td></tr>
+<tr class="stripe"><td><a href="#t1">TestEdge</a></td><td class="num">0</td><td class="num attn">1</td><td class="num">0</td><td class="num">0</td><td class="num">1,190</td><td></td><td></td></tr>
+<tr><td><a href="#t2">TestFireFox</a></td><td class="num">1</td><td class="num">0</td><td class="num">0</td><td class="num">0</td><td class="num">13,121</td><td></td><td></td></tr>
+<tr><th>Total</th><th class="num">1</th><th class="num attn">2</th><th class="num">0</th><th class="num">0</th><th class="num">15,838</th><th colspan="2"></th></tr>
+</table>
+<table id='summary'><thead><tr><th>Class</th><th>Method</th><th>Start</th><th>Time (ms)</th></tr></thead><tbody><tr><th colspan="4">Suite</th></tr></tbody><tbody id="t0"><tr><th colspan="4">TestChrome &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.SeleniumProject.tests.AddToCartTest</td><td><a href="#m0">chooseDriver</a></td><td rowspan="1">1643966878123</td><td rowspan="1">1486</td></tr><tr><th colspan="4">TestChrome &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.SeleniumProject.tests.AddToCartTest</td><td><a href="#m1">attachScreenshot</a></td><td rowspan="1">1643966879626</td><td rowspan="1">-1643966879626</td></tr><tr><th colspan="4">TestChrome &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.SeleniumProject.tests.AddToCartTest</td><td><a href="#m2">addToCart</a></td><td rowspan="1">1643966879620</td><td rowspan="1">0</td></tr></tbody>
+<tbody id="t1"><tr><th colspan="4">TestEdge &#8212; failed (configuration methods)</th></tr><tr class="failedeven"><td rowspan="1">com.SeleniumProject.tests.AddToCartTest</td><td><a href="#m3">chooseDriver</a></td><td rowspan="1">1643966879669</td><td rowspan="1">1177</td></tr><tr><th colspan="4">TestEdge &#8212; skipped (configuration methods)</th></tr><tr class="skippedeven"><td rowspan="1">com.SeleniumProject.tests.AddToCartTest</td><td><a href="#m4">attachScreenshot</a></td><td rowspan="1">1643966880855</td><td rowspan="1">-1643966880855</td></tr><tr><th colspan="4">TestEdge &#8212; skipped</th></tr><tr class="skippedeven"><td rowspan="1">com.SeleniumProject.tests.AddToCartTest</td><td><a href="#m5">addToCart</a></td><td rowspan="1">1643966880851</td><td rowspan="1">0</td></tr></tbody>
+<tbody id="t2"><tr><th colspan="4">TestFireFox &#8212; passed</th></tr><tr class="passedeven"><td rowspan="1">com.SeleniumProject.tests.AddToCartTest</td><td><a href="#m6">addToCart</a></td><td rowspan="1">1643966887824</td><td rowspan="1">5088</td></tr></tbody>
+</table>
+<h2>TestChrome</h2><h3 id="m0">com.SeleniumProject.tests.AddToCartTest#chooseDriver</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>chrome</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 94
+Current browser version is 97.0.4692.99 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MOHITPARIHAR&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.12&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x011ABDE3+2473443]
+	Ordinal0 [0x01146661+2057825]
+	Ordinal0 [0x01052438+1057848]
+	Ordinal0 [0x0107054A+1181002]
+	Ordinal0 [0x0106C435+1164341]
+	Ordinal0 [0x01069CAF+1154223]
+	Ordinal0 [0x01099ADF+1350367]
+	Ordinal0 [0x0109974A+1349450]
+	Ordinal0 [0x010955AB+1332651]
+	Ordinal0 [0x01072104+1188100]
+	Ordinal0 [0x01072F59+1191769]
+	GetHandleVerifier [0x01332266+1549718]
+	GetHandleVerifier [0x013DD4A7+2250711]
+	GetHandleVerifier [0x0123718B+521403]
+	GetHandleVerifier [0x01236229+517465]
+	Ordinal0 [0x0114B79D+2078621]
+	Ordinal0 [0x0114FB58+2095960]
+	Ordinal0 [0x0114FC92+2096274]
+	Ordinal0 [0x01159541+2135361]
+	BaseThreadInitThunk [0x7704FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77457A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77457A6E+238]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:157)
+	at com.SeleniumProject.tests.BaseTest.chooseDriver(BaseTest.java:75)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m1">com.SeleniumProject.tests.AddToCartTest#attachScreenshot</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m2">com.SeleniumProject.tests.AddToCartTest#addToCart</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>mobile</td><td>++)(*&amp;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of ChromeDriver only supports Chrome version 94
+Current browser version is 97.0.4692.99 with binary path C:\Program Files\Google\Chrome\Application\chrome.exe
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MOHITPARIHAR&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.12&apos;
+Driver info: driver.version: ChromeDriver
+remote stacktrace: Backtrace:
+	Ordinal0 [0x011ABDE3+2473443]
+	Ordinal0 [0x01146661+2057825]
+	Ordinal0 [0x01052438+1057848]
+	Ordinal0 [0x0107054A+1181002]
+	Ordinal0 [0x0106C435+1164341]
+	Ordinal0 [0x01069CAF+1154223]
+	Ordinal0 [0x01099ADF+1350367]
+	Ordinal0 [0x0109974A+1349450]
+	Ordinal0 [0x010955AB+1332651]
+	Ordinal0 [0x01072104+1188100]
+	Ordinal0 [0x01072F59+1191769]
+	GetHandleVerifier [0x01332266+1549718]
+	GetHandleVerifier [0x013DD4A7+2250711]
+	GetHandleVerifier [0x0123718B+521403]
+	GetHandleVerifier [0x01236229+517465]
+	Ordinal0 [0x0114B79D+2078621]
+	Ordinal0 [0x0114FB58+2095960]
+	Ordinal0 [0x0114FC92+2096274]
+	Ordinal0 [0x01159541+2135361]
+	BaseThreadInitThunk [0x7704FA29+25]
+	RtlGetAppContainerNamedObjectPath [0x77457A9E+286]
+	RtlGetAppContainerNamedObjectPath [0x77457A6E+238]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:181)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:168)
+	at org.openqa.selenium.chrome.ChromeDriver.&lt;init&gt;(ChromeDriver.java:157)
+	at com.SeleniumProject.tests.BaseTest.chooseDriver(BaseTest.java:75)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>TestEdge</h2><h3 id="m3">com.SeleniumProject.tests.AddToCartTest#chooseDriver</h3><table class="result"><tr class="param"><th>Parameter #1</th></tr><tr class="param stripe"><td>edge</td></tr><tr><th>Exception</th></tr><tr><td><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of MSEdgeDriver only supports MSEdge version 95
+Current browser version is 98.0.1108.43 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MOHITPARIHAR&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.12&apos;
+Driver info: driver.version: EdgeDriver
+remote stacktrace: Backtrace:
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF750B6A532+448610]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7507970D3+951075]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7507C1591+1124321]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7507BDBB8+1109512]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7507B6D8A+1081306]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7507F20CC+1323804]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7507ED10F+1303391]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7507C33CF+1132063]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7507C44DF+1136431]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF75087C91D+14365]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF75082DD65+1568693]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF750A3AB59+2617]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF75082ED2E+1572734]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF750B0B898+60360]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF750B0B0F4+58404]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF750B0AF46+57974]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF750B3B63C+256364]
+	BaseThreadInitThunk [0x00007FFC7EE57034+20]
+	RtlUserThreadStart [0x00007FFC7EFE2651+33]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:141)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:96)
+	at com.SeleniumProject.tests.BaseTest.chooseDriver(BaseTest.java:81)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m4">com.SeleniumProject.tests.AddToCartTest#attachScreenshot</h3><table class="result"><tr><th class="invisible"/></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h3 id="m5">com.SeleniumProject.tests.AddToCartTest#addToCart</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>mobile</td><td>++)(*&amp;</td></tr><tr><th colspan="2">Exception</th></tr><tr><td colspan="2"><div class="stacktrace">org.openqa.selenium.SessionNotCreatedException: session not created: This version of MSEdgeDriver only supports MSEdge version 95
+Current browser version is 98.0.1108.43 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;MOHITPARIHAR&apos;, ip: &apos;192.168.0.104&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;11.0.12&apos;
+Driver info: driver.version: EdgeDriver
+remote stacktrace: Backtrace:
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF750B6A532+448610]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7507970D3+951075]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7507C1591+1124321]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7507BDBB8+1109512]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7507B6D8A+1081306]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7507F20CC+1323804]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7507ED10F+1303391]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7507C33CF+1132063]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF7507C44DF+1136431]
+	Microsoft::Applications::Events::EventProperty::~EventProperty [0x00007FF75087C91D+14365]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF75082DD65+1568693]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF750A3AB59+2617]
+	Microsoft::Applications::Events::EventProperty::to_string [0x00007FF75082ED2E+1572734]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF750B0B898+60360]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF750B0B0F4+58404]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF750B0AF46+57974]
+	Microsoft::Applications::Events::EventProperty::EventProperty [0x00007FF750B3B63C+256364]
+	BaseThreadInitThunk [0x00007FFC7EE57034+20]
+	RtlUserThreadStart [0x00007FFC7EFE2651+33]
+
+	at org.openqa.selenium.remote.W3CHandshakeResponse.lambda$errorHandler$0(W3CHandshakeResponse.java:62)
+	at org.openqa.selenium.remote.HandshakeResponse.lambda$getResponseFunction$0(HandshakeResponse.java:30)
+	at org.openqa.selenium.remote.ProtocolHandshake.lambda$createSession$0(ProtocolHandshake.java:126)
+	at java.base/java.util.stream.ReferencePipeline$3$1.accept(ReferencePipeline.java:195)
+	at java.base/java.util.Spliterators$ArraySpliterator.tryAdvance(Spliterators.java:958)
+	at java.base/java.util.stream.ReferencePipeline.forEachWithCancel(ReferencePipeline.java:127)
+	at java.base/java.util.stream.AbstractPipeline.copyIntoWithCancel(AbstractPipeline.java:502)
+	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:488)
+	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:474)
+	at java.base/java.util.stream.FindOps$FindOp.evaluateSequential(FindOps.java:150)
+	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:234)
+	at java.base/java.util.stream.ReferencePipeline.findFirst(ReferencePipeline.java:543)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:128)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:74)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:136)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:213)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:131)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:141)
+	at org.openqa.selenium.edge.EdgeDriver.&lt;init&gt;(EdgeDriver.java:96)
+	at com.SeleniumProject.tests.BaseTest.chooseDriver(BaseTest.java:81)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+... Removed 35 stack frames</div></td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+<h2>TestFireFox</h2><h3 id="m6">com.SeleniumProject.tests.AddToCartTest#addToCart</h3><table class="result"><tr class="param"><th>Parameter #1</th><th>Parameter #2</th></tr><tr class="param stripe"><td>mobile</td><td>++)(*&amp;</td></tr></table><p class="totop"><a href="#summary">back to summary</a></p>
+</body>
+</html>
